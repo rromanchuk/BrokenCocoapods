@@ -15,9 +15,9 @@ Motion::Project::App.setup do |app|
   app.name = 'BrokenCocoapods'
 
   app.pods do
-    
+    platform :ios, '7.0'
     pod 'AWSCore'
     pod 'AWSS3'
-    pod 'AWSCognitoSync'
+    pod 'AWSCognito'
   end
 end
