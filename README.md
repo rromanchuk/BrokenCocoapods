@@ -1,7 +1,7 @@
 # BrokenCocoapods
 
-`bundle install` 
-`rake pod:install` 
+`bundle install && rake pod:install` 
+
 
 ```
 Generating Pods project
